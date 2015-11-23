@@ -1,0 +1,113 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    tools:context=".StartActivity"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:id="@+id/rl_starter"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sv_starter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:scrollbarSize="4dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:fillViewport="false"
+        android:layout_above="@+id/tv_distance_from_state2">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:id="@+id/rl_starter_inner">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/state1a_greeter_message"
+                android:id="@+id/tv_greeter"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="80dp"
+                android:paddingRight="80dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/img_gauguin_1"
+                android:layout_below="@+id/tv_greeter"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/project_description"
+                android:id="@+id/tv_project_description"
+                android:layout_alignParentStart="false"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:textSize="18sp"
+                android:lineSpacingExtra="2dp"
+                android:visibility="visible"
+                android:layout_alignParentEnd="false"
+                android:breakStrategy="balanced"
+                android:layout_below="@+id/imageView" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/distance_from_state2"
+        android:id="@+id/tv_distance_from_state2_label"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/tv_distance_from_state2"
+        android:layout_toStartOf="@+id/tv_distance_from_state2"
+        android:paddingLeft="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/distance_message_info"
+        android:id="@+id/tv_distance_from_state2"
+        android:textSize="45sp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingRight="8dp" />
+
+
+</RelativeLayout>

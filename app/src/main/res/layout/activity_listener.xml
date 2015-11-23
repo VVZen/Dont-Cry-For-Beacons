@@ -1,0 +1,90 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    tools:context=".StartActivity"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:id="@+id/rl_starter"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sv_starter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:scrollbarSize="4dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:fillViewport="false">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:id="@+id/rl_starter_inner">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/listener_title"
+                android:id="@+id/tv_greeter"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:paddingLeft="48dp"
+                android:paddingRight="48dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/listener_message"
+                android:id="@+id/tv_listener_message"
+                android:layout_alignParentStart="false"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:textSize="25sp"
+                android:lineSpacingExtra="2dp"
+                android:visibility="visible"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="64dp"
+                android:breakStrategy="balanced"
+                android:layout_below="@+id/tv_greeter"
+                android:textIsSelectable="false" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/distance_message_info"
+        android:id="@+id/tv_distance_info"
+        android:layout_below="@+id/sv_starter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textSize="45sp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

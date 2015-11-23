@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Gauguin in Light</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="distance_message_info">ND</string>
+
+    <!-- LISTENING ACTIVITY -->
+    <string name="listener_title">Benvenuto nell\'app di Gauguin in Light</string>
+    <string name="listener_message">
+        <![CDATA[
+        Avvicinati all\'entrata del locale per saperne di più.<br/>
+        Distanza approssimativa dal beacon più vicino a te:
+        ]]>
+    </string>
+
+
+    <!-- STATE 1 A ACTIVITY -->
+
+    <string name="state1a_greeter_message">Benvenuto a Gauguin in Light</string>
+
+    <string name="project_description">
+    <![CDATA[
+      <i>"Gauguin in Light"</i> è un progetto di videoproiezione delle tele composte da <b>Paul Gauguin</b> durante i suoi due soggiorni a Tahiti: 1893-1895 e 1895-1901.
+    <br/><br/>L\'esperienza multisensoriale e immersiva che si vuole offrire modifica radicalmente la prassi museale alla quale si è abituati, coinvolgendo gli osservatori in uno spettacolo di scomposizione e ricomposizione animata dei protagonisti di questi quadri.
+    ]]>
+    </string>
+
+    <string name="distance_from_state2">Distanza dalla proiezione:</string>
+
+    <string name="activate_bluetooth">Attiva il bluetooth</string>
+
+    <!-- STATE 1 B ACTIVITY -->
+    <string name="state1b_greeter_message">Ma come, già te ne vai?\n Arrivederci da Gauguin in Light!</string>
+
+    <string name="state1b_message">"La civiltà mi sta lentamente abbandonando. Comincio a pensare con semplicità,
+        a non avere più odio per il mio prossimo, anzi ad amarlo. Godo tutte le gioie della vita libera, animale e umana.
+        Sfuggo alla fatica, penetro nella natura: con la certezza di un domani uguale al presente, così libero, così bello, la pace discende in me;
+        mi evolvo normalmente e non ho più vane preoccupazioni."</string>
+
+</resources>

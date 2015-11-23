@@ -1,0 +1,17 @@
+BEACONS INFO: 
+	Namespace id: 0xba1c51bab3147efee8e5
+	Instance id: 0x252423222120
+	Beacon name iBKS105
+	Service UUID: 65194
+	Typecode : 0
+	Bluetooth Address : FB:42:27:0B:98:E9
+	Distance from smartphone: 0.018620793298541355
+
+BEACONS INFO: 
+ 	Namespace id: 0xba2c51bab3147efee8e5
+ 	Instance id: 0x252423222120
+ 	Beacon name iBKS105
+ 	Service UUID: 65194
+ 	Typecode : 0
+ 	Bluetooth Address : E3:B7:55:6B:73:BB
+ 	Distance from smartphone: 0.4081495666216216
